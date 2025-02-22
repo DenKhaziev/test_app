@@ -7,7 +7,6 @@
 путем перехода по каждой ссылке - например /sales происходит миграция в таблицу
 по API маршрутам - например /api/sales получаем JSON с пагинацией, передавая параметр page выбираем страницу
 
-DB_CONNECTION= mysql
-DB_DATABASE=laravel_project
-DB_USERNAME=root
-DB_PASSWORD= root
+db mysql
+name: khazie6d_db
+password: 54hav27u89nov!
