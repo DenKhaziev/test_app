@@ -5,7 +5,7 @@ namespace App\Services;
 class GetJSON
 {
     static public function getTable($table, $dateFrom, $dateTo = null) {
-        $baseUrl = 'http://89.108.115.241:6969/api/' . $table . '?key=E6kUTYrYwZq2tN4QEtyzsbEBk3ie&dateFrom=' . $dateFrom . '&dateTo=' . $dateTo . '&page=';
+        $baseUrl = 'http://' . env('IP') . ':' . env('PORT') . '/api/' . $table . '?key=' . env('KEY') . '&dateFrom=' . $dateFrom . '&dateTo=' . $dateTo . '&page=';
         $page = 1;
         $allData = [];
 
